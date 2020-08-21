@@ -33,7 +33,7 @@ namespace Assignment5
         {
             this.Hide();
             SplashTimer.Stop();
-            this.Close();
+            Program.startForm.Show();
         }
     }
 }

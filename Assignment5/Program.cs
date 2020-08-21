@@ -9,6 +9,8 @@ namespace Assignment5
     static class Program
     {
         public static SplashForm splashForm;
+        public static StartForm startForm;
+        public static SelectForm selectForm;
         public static Product selectedProduct;
 
         /// <summary>
@@ -21,6 +23,8 @@ namespace Assignment5
             Application.SetCompatibleTextRenderingDefault(false);
 
             splashForm = new SplashForm();
+            startForm = new StartForm();
+            selectForm = new SelectForm();
 
             Application.Run(splashForm);
         }
