@@ -12,6 +12,8 @@ namespace Assignment5
         public static StartForm startForm;
         public static SelectForm selectForm;
         public static Product selectedProduct;
+        public static ProductInfoForm productInfoForm;
+        public static OrderForm orderForm;
 
         /// <summary>
         /// The main entry point for the application.
@@ -21,10 +23,11 @@ namespace Assignment5
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
             splashForm = new SplashForm();
             startForm = new StartForm();
             selectForm = new SelectForm();
+            productInfoForm = new ProductInfoForm();
+            orderForm = new OrderForm();
 
             Application.Run(splashForm);
         }

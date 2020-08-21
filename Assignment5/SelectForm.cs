@@ -91,7 +91,8 @@ namespace Assignment5
         /// <param name="e"></param>
         private void NextButton_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            Program.productInfoForm.ShowDialog();
         }
 
         /// <summary>
